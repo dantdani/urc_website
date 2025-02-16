@@ -48,7 +48,7 @@ const Footer: React.FC = () => {
             <h5 className="text-xl font-bold mb-2">Connect With Us</h5>
             <p className="text-sm mb-4">
               Harvard University, Cambridge, MA<br />
-              Email: rover@harvard.edu<br />
+              Email: harvarduroverteam@gmail.com<br />
               Phone: +1 (617) 495-1000
             </p>
             <div className="flex space-x-4">

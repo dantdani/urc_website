@@ -43,25 +43,25 @@ const Navbar: React.FC = () => {
           <div className="hidden md:flex items-center space-x-8">
             <Link
               href="/"
-              className="text-lg font-serif text-[#A51C30] hover:text-[#D0202D]"
+              className="text-lg font-serif text-[#ffffff] hover:text-[#D0202D]"
             >
               Home
             </Link>
             <Link
               href="/team"
-              className="text-lg font-serif text-[#A51C30] hover:text-[#D0202D]"
+              className="text-lg font-serif text-[#ffffff] hover:text-[#D0202D]"
             >
               Team
             </Link>
             <Link
               href="/projects"
-              className="text-lg font-serif text-[#A51C30] hover:text-[#D0202D]"
+              className="text-lg font-serif text-[#ffffff] hover:text-[#D0202D]"
             >
               Projects
             </Link>
             <Link
               href="/contact"
-              className="text-lg font-serif text-[#A51C30] hover:text-[#D0202D]"
+              className="text-lg font-serif text-[#ffffff] hover:text-[#D0202D]"
             >
               Contact
             </Link>

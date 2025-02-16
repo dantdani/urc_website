@@ -22,7 +22,7 @@ export default function Hero() {
       </h1>
 
       {/* Animated Subtitle */}
-      <p className="mt-6 text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
+      <p className="mt-6 text-xl  md:text-2xl text-neutral-50 max-w-2xl mx-auto leading-relaxed">
         Innovating the next generation of planetary exploration. Competing in the{' '}
         <a
         href="https://urc.marssociety.org/"
