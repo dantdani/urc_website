@@ -26,42 +26,52 @@ const Navbar: React.FC = () => {
         }`}
       >
         <nav className="max-w-screen-xl mx-auto flex items-center justify-between h-full px-4 sm:px-6">
-          {/* Logo */}
+          {/* Logo with Larger White Circle */}
           <Link href="/" onClick={handleMenuClose}>
             <div className="flex items-center h-full cursor-pointer">
-              <Image
-                src="/images/urc_rover_logo.png"
-                alt="URC Rover Team Logo"
-                width={150}
-                height={60}
-                className="object-contain"
-              />
+              <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center p-2">
+                <Image
+                  src="/images/urc_logo.png"
+                  alt="URC Rover Team Logo"
+                  width={60}
+                  height={60}
+                  className="object-contain"
+                />
+              </div>
             </div>
           </Link>
 
-          {/* Navigation Links (Desktop) */}
+          {/* Desktop Nav Links */}
           <div className="hidden md:flex items-center space-x-8">
             <Link
               href="/"
-              className={`text-lg font-serif ${isScrolled ? "text-[#A51C30]" : "text-white"} hover:text-[#D0202D]`}
+              className={`text-lg font-serif ${
+                isScrolled ? "text-[#A51C30]" : "text-white"
+              } hover:text-[#D0202D]`}
             >
               Home
             </Link>
             <Link
               href="/team"
-              className={`text-lg font-serif ${isScrolled ? "text-[#A51C30]" : "text-white"} hover:text-[#D0202D]`}
+              className={`text-lg font-serif ${
+                isScrolled ? "text-[#A51C30]" : "text-white"
+              } hover:text-[#D0202D]`}
             >
               Team
             </Link>
             <Link
               href="/projects"
-              className={`text-lg font-serif ${isScrolled ? "text-[#A51C30]" : "text-white"} hover:text-[#D0202D]`}
+              className={`text-lg font-serif ${
+                isScrolled ? "text-[#A51C30]" : "text-white"
+              } hover:text-[#D0202D]`}
             >
               Projects
             </Link>
             <Link
               href="/contact"
-              className={`text-lg font-serif ${isScrolled ? "text-[#A51C30]" : "text-white"} hover:text-[#D0202D]`}
+              className={`text-lg font-serif ${
+                isScrolled ? "text-[#A51C30]" : "text-white"
+              } hover:text-[#D0202D]`}
             >
               Contact
             </Link>
@@ -86,13 +96,15 @@ const Navbar: React.FC = () => {
         >
           <div className="p-4 flex flex-col space-y-6">
             <Link href="/" onClick={handleMenuClose}>
-              <Image
-                src="/images/urc_rover_logo.png"
-                alt="URC Rover Team Logo"
-                width={120}
-                height={60}
-                className="object-contain"
-              />
+              <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center p-2">
+                <Image
+                  src="/images/urc_logo.png"
+                  alt="URC Rover Team Logo"
+                  width={60}
+                  height={60}
+                  className="object-contain"
+                />
+              </div>
             </Link>
             <Link
               href="/"
