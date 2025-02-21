@@ -5,7 +5,7 @@ export default function HomePage() {
   return (
     <main>
       <Hero />
-      <Rover3DViewer />
+      
     </main>
   );
 }
