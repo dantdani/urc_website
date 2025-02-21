@@ -8,7 +8,6 @@ const GallerySection: React.FC = () => {
         <h2 className="text-4xl font-bold text-center text-[#A51C30] mb-8">
           Our Journey in Pictures
         </h2>
-
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="relative group">
             <Image

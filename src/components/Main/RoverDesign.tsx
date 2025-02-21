@@ -25,13 +25,11 @@ const DesignSlider: React.FC = () => {
     setCurrent((prev) => (prev === 0 ? total - 1 : prev - 1));
   };
 
-  const goToSlide = (index: number) => {
-    setCurrent(index);
-  };
+  const goToSlide = (index: number) => setCurrent(index);
 
   return (
     <section className="relative flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-black via-gray-900 to-[#0f0f0f] overflow-hidden px-4 py-8">
-      {/* Floating Decorative Element */}
+      {/* Decorative Element */}
       <div className="absolute w-72 h-72 rounded-full bg-[#A51C30] opacity-40 blur-3xl -bottom-20 -left-20 z-0" />
 
       {/* Title */}
@@ -42,15 +40,16 @@ const DesignSlider: React.FC = () => {
       </div>
 
       {/* Slider Container */}
-      <div className="relative z-10 w-full max-w-4xl h-[600px] mx-auto">
+      <div className="relative z-10 w-full max-w-4xl h-[600px] mx-auto flex items-center justify-center">
         {designImages.map((img, index) => (
           <div
             key={index}
-            className={`absolute inset-0 transition-opacity duration-1000 ${
+            className={`absolute transition-opacity duration-1000 ${
               index === current ? "opacity-100" : "opacity-0"
-            }`}
+            } flex items-center justify-center w-full`}
           >
-            <div className="relative w-full h-full">
+            {/* Fixed container with consistent max-width and max-height */}
+            <div className="relative w-[600px] h-[400px]">
               <Image
                 src={img}
                 alt={`Design ${index + 1}`}
