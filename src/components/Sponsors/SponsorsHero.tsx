@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const SponsorsHero: React.FC = () => {
   return (
-    <section className="relative w-full h-[400px] flex items-center justify-center overflow-hidden">
+    <section className="relative w-full h-[300px] flex items-center justify-center overflow-hidden">
       {/* Two side-by-side background images using your current file names */}
       <div className="absolute inset-0 flex">
         <div className="w-1/2 h-full relative">
