@@ -1,6 +1,9 @@
-import React from "react";
-
-
-export default function TeamPage() {
-    return <div>Hello from the App Router!</div>;
-  }
+import React from 'react';
+import TeamPage from '@/components/Main/TeamPage';
+export default function HomePage() {
+  return (
+    <>
+      <TeamPage />
+    </>
+  );
+}
