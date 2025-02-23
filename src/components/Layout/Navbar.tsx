@@ -68,7 +68,7 @@ const Navbar: React.FC = () => {
               Projects
             </Link>
             <Link
-              href="/contact"
+              href="/contact/Options"
               className={`text-lg font-serif ${
                 isScrolled ? "text-[#A51C30]" : "text-white"
               } hover:text-[#D0202D]`}
@@ -125,7 +125,7 @@ const Navbar: React.FC = () => {
               onClick={handleMenuClose}
               className="text-lg font-serif text-[#A51C30] hover:text-[#D0202D]"
             >
-              Projects
+              About
             </Link>
             <Link
               href="/contact"
